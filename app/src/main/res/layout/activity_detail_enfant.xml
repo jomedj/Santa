@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <!-- just draw a colored line -->
+    <View
+        android:layout_height="2dip"
+        android:background="#303030" />
+
+    <!-- data -->
+    <TableRow android:padding="7dp">
+        <TextView
+            android:id="@+id/textView_detail_sexe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="24sp"
+            android:textStyle="bold"></TextView>
+
+    </TableRow>
+    <TableRow android:padding="7dp">
+
+
+        <TextView
+            android:id="@+id/textView_detail_prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="24sp"
+            android:textStyle="bold"></TextView>
+    </TableRow>
+</TableLayout>
